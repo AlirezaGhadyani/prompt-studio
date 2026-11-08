@@ -1,0 +1,55 @@
+{
+  "name": "prompt-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Manage, customize, and insert reusable engineering prompts.",
+  "license": "MIT",
+  "author": "Alireza Ghadyani",
+  "homepage": "https://github.com/AlirezaGhadyani/prompt-studio#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlirezaGhadyani/prompt-studio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlirezaGhadyani/prompt-studio/issues"
+  },
+  "keywords": [
+    "openchamber",
+    "openchamber-extension",
+    "prompts",
+    "prompt-library",
+    "prompt-templates"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.ts",
+    "check": "npm run typecheck && npm test && npm run build",
+    "migrate": "node scripts/migrate.ts"
+  },
+  "openchamber": {
+    "apiVersion": 1,
+    "engines": {
+      "openchamber": ">=2.7.0"
+    },
+    "id": "prompt-studio",
+    "name": "Prompt Studio",
+    "icon": "file-text",
+    "contributes": {
+      "panel": {
+        "entry": "panel/index.html"
+      },
+      "page": true
+    }
+  },
+  "devDependencies": {
+    "@openchamber/sdk": "2.7.0",
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.0"
+  }
+}
