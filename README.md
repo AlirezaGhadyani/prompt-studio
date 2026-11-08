@@ -127,6 +127,8 @@ Or manually:
 
 Prompt Studio requests no permissions, so no permission dialog appears.
 
+To pin the tagged release instead of following `main`, append `#v1.0.0` to the Git URL.
+
 Git installs can update themselves. **Settings → Extensions** checks at most once
 an hour; choose **Check for updates** to check now. The update keeps your templates.
 
