@@ -1,6 +1,6 @@
 node_modules/
-migration/
-MIGRATION.md
+/migration/
+/MIGRATION.md
 coverage/
 *.log
 .env
