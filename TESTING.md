@@ -31,7 +31,7 @@ behaviour is tested without OpenChamber.
 ## Manual, in the running app
 
 The extension was installed from the folder through the real server (`POST /api/guests`) and driven in
-the web UI at `http://127.0.0.1:57123`.
+the local OpenChamber web UI.
 
 - [x] Install: card created, `enabled: true`, `capabilities: { requested: [], granted: [] }`.
 - [x] Rail icon appears in **Panel surfaces**; the panel loads with the app theme.
