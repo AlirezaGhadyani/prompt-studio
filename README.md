@@ -112,7 +112,7 @@ extensions do not run in the VS Code extension or on mobile.
 
 ### Install from GitHub
 
-[**Add Prompt Studio to OpenChamber**](openchamber://extensions/install?url=https%3A%2F%2Fgithub.com%2FAlirezaGhadyani%2Fprompt-studio)
+Open the [**Prompt Studio install page**](https://alirezaghadyani.github.io/prompt-studio/) and choose **Open in OpenChamber**. The page hands off to the app with the repository already filled in.
 
 Or manually:
 
